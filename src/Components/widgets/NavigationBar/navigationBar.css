@@ -1,0 +1,26 @@
+.mainContainer {
+    width : 100%;
+   
+}
+
+
+.nav {
+    width: 100%;
+    background-color:  #a9d2da;
+    height: 20%;
+}
+ .nav ul {
+   
+   width: 30%;
+    
+}
+.nav ul li {
+   list-style: none;
+    font-family:  'Roboto', sans-serif;
+    background : #455a64;
+    border-radius: 4px;
+    border:none;
+   
+    color:white;
+    cursor: pointer;
+}

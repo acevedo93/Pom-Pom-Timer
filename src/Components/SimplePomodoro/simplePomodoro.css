@@ -1,0 +1,92 @@
+.mainContainer {
+    opacity: 0.8;
+    position:relative;
+    height: 100%;
+    width: 100%;
+    margin: 10% auto;
+  background:   #1c313a;
+  display:flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  overflow: hidden;
+ 
+}
+
+.mainContainerBreak {
+   
+    opacity: 0.8;
+    position:relative;
+    height: 100%;
+    width: 100%;
+    margin: 10% auto;
+  background:   #ffffff;
+  display:flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  overflow: hidden;
+    
+}
+
+
+.content {
+    color: #718792;
+    font-family: Roboto; 
+    font-size: 3rem;
+}
+.clock {
+    margin-left : 10%;
+    height: 50%;
+    color: #00b8d4;
+    font-family: Chivo;
+    font-size: 5rem;
+}
+.iconContainer  {
+    width: 90%;
+    margin : 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 20;
+    color : #00b8d4;
+    background-color: transparent;
+    
+
+}
+
+.logoContainer  img {
+  
+   
+    width: 600px;
+    height: 600px;
+  
+     position:absolute;  
+    top:-20%;
+    left:70%;
+    opacity: 0.3;
+
+    /* -webkit-animation: 3s rotate linear infinite;
+    animation: 3s rotate linear infinite;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%; */
+    animation:  mymove 200s  linear infinite;
+
+}
+
+.clockNumbers {
+    font-size: 10rem;
+
+}
+.clockNumbers span {
+ font-size: 3rem;
+}
+
+
+@keyframes rotate {from {transform: rotate(0deg);}
+to {transform: rotate(360deg);}}
+/* @-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
+to {-webkit-transform: rotate(360deg);}} */
+
+@keyframes mymove {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}

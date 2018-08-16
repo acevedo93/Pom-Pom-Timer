@@ -1,0 +1,187 @@
+
+ /*font-family: 'Chivo', sans-serif;*/
+
+ .mainContainer {
+    background-image: url('/images/Textura Fondo.png');
+    background-size: 15%; 
+   
+    max-width:100%;
+    min-height: 100vh;
+    height:100vh;
+    
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.secondContainer {
+    display:flex;
+    width:100%;
+    height: 100%;
+   
+}
+
+.logo{
+
+   position:relative;
+    width: 20%;
+   
+   
+    
+}
+.landingDescription{
+    
+    width: 60%;
+}
+
+.landingDescription article{
+    background: #ffffff;
+    text-align: center;
+    margin-top: 14%;
+    
+    display:flex;
+    flex-direction : column;
+    justify-content: space-between;
+    margin-left:auto;
+    margin-right: auto;
+    width: 80%;
+    height: 70%;
+
+}
+.title h1{
+     font-family: 'chivo', sans-serif;
+     font-size: 3.5em;
+     margin-top: 7%;
+     color: #1c313a;
+     font-weight: 900;
+     
+}
+
+.content{
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    color: #455a64
+}
+
+.runPomo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 2%;
+    
+    color: #00b8d4;
+}
+
+
+.queEsPomPom{
+    font-family: 'Roboto', sans-serif;
+    width:100%;
+    background-color:#b2dbe3;
+    text-align: center;
+    padding:3%;
+    font-weight: bold;
+    color: #455a64
+
+}
+.queEsPomPom button{
+    border:none;
+    background-color:#b2dbe3;
+    font-weight: bold;
+    cursor : pointer;
+    font-size:  20px;
+}
+
+.ModalAbout{
+    width:85vw;
+    height: 100vh;
+    margin : 5% auto;
+    background  :#1c313a;
+    color       :#528fac;
+
+}
+.ModalLogIn {
+    width:25vw;
+    height: 60vh;
+    margin : 5% auto;
+   background: #1c313a;
+    color  :#528fac;
+    
+    
+
+}
+
+.ModalAboutUp {
+  
+    animation: modalup ease .5s backwards; 
+  }
+
+  @keyframes modalup {
+    
+        0% { 
+             transform: translateY(100%); 
+            
+             
+        }
+        100% { 
+             transform: translateY(0%); 
+             
+        }
+    }
+  
+    .ModalAboutDown {
+    
+    animation: modaldown ease .5s backwards; 
+    
+  }
+  @keyframes modaldown {
+    
+        0% { 
+             transform: translateY(0%); 
+            
+             
+        }
+        100% { 
+             transform: translateY(100%); 
+             
+        }
+    }
+  
+.pomodoroModal {
+    width:100vw;
+    height: 50vh;
+   
+    
+}
+
+@media only screen and (max-width: 1000px) {
+   
+
+    .logo {
+       visibility: hidden;
+    }
+  
+}
+
+@media only screen and (max-width: 700px){
+    body {
+        background-color: lightblue; 
+   }
+   .content{
+    font-size: 15px;
+  }
+  .landingDescription{
+    padding: 3px;
+  }
+  .pomodoroModal {
+    width:100vw;
+    height: 100vh;
+    margin : 10% auto;
+}
+    .ModalLogIn{
+        width:80vw;
+    }
+}

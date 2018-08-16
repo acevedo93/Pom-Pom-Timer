@@ -1,0 +1,66 @@
+.pomodoroButton{
+    background:#ff5252;
+    color : white;
+}
+.loginButton{
+    line-height: 1.29;
+    font-weight: 500;
+    font-size: 1.2em;
+    font-family:  'Roboto', sans-serif;
+    background : #455a64;
+    border-radius: 4px;
+    border:none;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: .5%;
+    padding-right: .5%;
+    width: 38%;
+    color:white;
+    cursor: pointer;
+}
+.loginButton2{
+    margin-top : 2%;
+    line-height: 1.29;
+    font-weight: 500;
+    font-size: 1.2em;
+    font-family:  'Roboto', sans-serif;
+    background : #00b8d4;
+    border-radius: 4px;
+    border:none;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: .5%;
+    padding-right: .5%;
+    width: 38%;
+    color:white;
+    cursor: pointer;
+}
+.clickHere{
+    margin-top : 2%;
+    font-family: Chivo;
+    font-size: 24px;
+    font-weight: 900;
+    background : #9deffb;
+    border-radius: 100px;
+    border : none;
+    width: 40px;
+    height: 40px;
+    color:white;
+    cursor:pointer;
+    
+    
+
+}
+
+.close{
+    
+    z-index: 20;
+    border : none;
+    background-color: transparent;
+    color: #9ceefa;
+    
+    font-family: Chivo;
+    font-size: 50px;
+    font-weight: 900;
+    cursor:pointer;
+}
